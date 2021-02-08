@@ -2,6 +2,7 @@
 
 ## Overview of Project
 Using pgAdmin4 to identify future retirements and mentorship candidates within Pewlett-Hackard which will help prepare them for the “silver tsunami” as many current employees reach retirement age.
+**Note:  I was a bit unsure about the file structure based on the instructions.  The 'Data' and 'Queries' folders can be found using the following path: 'Pewlett-Hackard-Analysis/Analysis_Projects_Folder/Pewlett-Hackard-Analysis_Folder'.  All my Challenge work was completed in the Module7 query.  I then copied and pasted the Challenge sequel script into the 'Employee_Database_challenge.sql' file.**
 
 
 ### Purpose

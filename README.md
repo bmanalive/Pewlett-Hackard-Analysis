@@ -9,9 +9,11 @@ Pewlett-Hackard has requested the following:
 * Determine the number of retiring employees per title
 * Identify employees who are eligible to participate in a mentorship program.
  
+ 
+ 
 ## Results
 
-* The total number of people retiring is 90398 employees
+* The total number of people retiring is 90,398 employees
 * The job title with the largest number of retirement aged employees is Senior Engineers at 29,414 employees. (See chart below.)
 
 #### Count of Employees at Retirement Age by Job Title
@@ -21,44 +23,21 @@ Pewlett-Hackard has requested the following:
 * The number of people eligible to participate in a mentorship program is much less than the number of people at retirement age. (Compare chart below with chart above.)
 * There are only 748 engineers eligible for a mentorship program.
 
-#### Count of Employees Eligible for a Mentorship Program
-![Mentorship_employees](Screenshots/Employees_eligible_for_mentorship_program.png)
-
-### Differences in Total Rides
-* Urban cities had the highest number of rides (1625).
-* Per the summary chart above, the total rides decreased from Urban to Suburban by 1000 rides, and by 1500 comparing Urban to Rural.
-
-### Differences in Total Drivers (Reference Chart Above)
-* Urban cities had the highest number of drivers (2405).
-* The number of drivers decreased significantly as you went from Suburban down to Rural cities.
-
-### Differences in Total Fares (Reference Chart Above)
-* Urban cities had the largest amount of total fares ($39,854.38)
-* As would be expected, the total fares decreased as well from Urban to Suburban to Rural cities
-
-### Differences in Average Fare per Ride and Driver (Reference Chart Above)
-* Urban cities had the lowest Average fare both per Ride ($24.53) and per Driver ($16.57).
-* Average fares per ride and per driver increased moving from Urban to Suburban to Rural cities
-
-### Differences in Total Fare by City Type (Reference Line Graphs & Chart Below)
-* As expected, based on the information above, Urban cities consistently had the highest total fare dollars.
-* Suburban cities had the second highest total fare dollars.
-* Rural cities had the least total fare dollars.
-
-
-#### PyBer Fare Summary by City Type (Jan. 1, 2019 to April 28, 2019)
-#### (Note: 2nd image shows greater date detail)
-![PyBer_fare_summary](analysis/PyBer_fare_summary.png)   ![PyBer_fare_summary_ObjOr.](analysis/PyBer_fare_summary_object_oriented.png)
-
-#### Data Behind the Two Graphs Above
-![PyBer_graph_data](analysis/PyBer_graph_data.png)
+#### Count of Employees Eligible for a Mentorship Program (Pivot Table created from 'mentorship_eligibility.CSV file)
+![Mentorship_employees](Screenshots/Employees_eligible_for_mentorship_program.png
 
 
 
 ## Summary: 
-Three business recommendations to the CEO for addressing any disparities among the city types:
-1. Focus on increasing rides in suburban and rural cities.  You may consider reducing the fares in these cities to attract more riders
-2. Focus on increasing the number of drivers to facilitate additional riders.
-3. Consider marketing during winter months in rural areas where road closers due to snow and ice may be more common.
-4. Consider marketing special ride deals to/from suburan and urban cities for work commutes and weekend events to eliminate parking issues and prevent drunk driving.
+* How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  Answer:  90,398
+  
+* Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  Answer:  Yes
+  
+* Provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+  Answer:
+   * Add the date that employees are first elligible to retire to 'unique_titles'.  This may help identify those that are more likely to retire based on when they became eligible to retire.
+   * Adding salary to 'unique titles' would provide Pewlett-Hackard incite into potential savings from paying higher wages of retirement aged employees.
+   * Create a table showing employees that need to become eligible for the mentorship program
 

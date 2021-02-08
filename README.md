@@ -12,10 +12,13 @@ Pewlett-Hackard has requested the following:
 ## Results
 
 * The total number of people retiring is 90398 employees
-* The job title with the largest number of retirement aged employees is Senior Engineers at 29,414 employees. (See image below.)
+* The job title with the largest number of retirement aged employees is Senior Engineers at 29,414 employees. (See chart below.)
 
 #### Count of Employees at Retirement Age by Job Title
-![Retirement_Age_by_Title](Pewlett-Hackard-Analysis/Retirements_by_title.png)
+![Retirement_Age_by_Title]("Screenshots/Retirements_by_title.png")
+
+
+* The number of people eligible to participate in a mentorship program is much less than the number of people at retirement age. (Compare chart below with chart above.)
 
 ### Differences in Total Rides
 * Urban cities had the highest number of rides (1625).

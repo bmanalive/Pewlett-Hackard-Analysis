@@ -24,7 +24,7 @@ Pewlett-Hackard has requested the following:
 * There are only 748 engineers eligible for a mentorship program.
 
 #### Count of Employees Eligible for a Mentorship Program (Pivot Table created from 'mentorship_eligibility.CSV file)
-![Mentorship_employees](Screenshots/Employees_eligible_for_mentorship_program.png
+![Mentorship_employees](Screenshots/Employees_eligible_for_mentorship_program.png)
 
 
 

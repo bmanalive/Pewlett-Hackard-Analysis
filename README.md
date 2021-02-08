@@ -19,9 +19,10 @@ Pewlett-Hackard has requested the following:
 
 
 * The number of people eligible to participate in a mentorship program is much less than the number of people at retirement age. (Compare chart below with chart above.)
+* There are only 748 engineers eligible for a mentorship program.
 
-#### Count of Employees at Retirement Age by Job Title
-![Retirement_Age_by_Title](Screenshots/Retirements_by_title.png)
+#### Count of Employees Eligible for a Mentorship Program
+![Mentorship_employees](Screenshots/Employees_eligible_for_mentorship_program.png)
 
 ### Differences in Total Rides
 * Urban cities had the highest number of rides (1625).
